@@ -54,6 +54,6 @@ receiver_iface = receiver.addInterface("receiver-if")
 # Private LAN link between the two nodes
 link = request.Link(members=[sender_iface, receiver_iface])
 link.bandwidth = 10000000 
-link.setNoInterSwitchLink() 
+link.setNoInterSwitchLinks() 
 
 pc.printRequestRSpec(request)
