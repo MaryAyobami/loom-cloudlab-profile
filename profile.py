@@ -4,6 +4,7 @@ Loom (NSDI '19) Reproduction Profile
 
 import geni.portal as portal
 import geni.rspec.pg as rspec
+import geni.rspec.emulab as emulab
 
 pc = portal.Context()
 
